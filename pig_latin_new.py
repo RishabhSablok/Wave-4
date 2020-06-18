@@ -1,9 +1,9 @@
 sentence = str(input("Input the sentence: "))
 sentence = sentence.split()
-new_word = []
+new_word = ""
 new_sentence = []
 for word in sentence:
-    new_word = []
+    new_word = ""
     counter = 0
     length = len(word)
     if ("a" in word) or ("e" in word) or ("i" in word) or ("o" in word) or ("u" in word):
